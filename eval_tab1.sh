@@ -1,0 +1,12 @@
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORA2C_ep_best.pth.tar --dataset office_home --source Art --target Clipart --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORA2P_ep_best.pth.tar --dataset office_home --source Art --target Product --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORA2R_ep_best.pth.tar --dataset office_home --source Art --target Real --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORC2A_ep_best.pth.tar --dataset office_home --source Clipart --target Art --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORC2P_ep_best.pth.tar --dataset office_home --source Clipart --target Product --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORC2R_ep_best.pth.tar --dataset office_home --source Clipart --target Real --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORP2A_ep_best.pth.tar --dataset office_home --source Product --target Art --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORP2C_ep_best.pth.tar --dataset office_home --source Product --target Clipart --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORP2R_ep_best.pth.tar --dataset office_home --source Product --target Real --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORR2A_ep_best.pth.tar --dataset office_home --source Real --target Art --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORR2C_ep_best.pth.tar --dataset office_home --source Real --target Clipart --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_1/lamda_ORR2P_ep_best.pth.tar --dataset office_home --source Real --target Product --testonly --dontlog

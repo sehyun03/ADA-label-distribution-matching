@@ -1,0 +1,4 @@
+domain_adaptation_images/dslr/images/bike_helmet/frame_0021.jpg 2
+domain_adaptation_images/dslr/images/desktop_computer/frame_0011.jpg 8
+domain_adaptation_images/dslr/images/mouse/frame_0011.jpg 16
+domain_adaptation_images/dslr/images/tape_dispenser/frame_0012.jpg 29

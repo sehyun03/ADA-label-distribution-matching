@@ -1,0 +1,6 @@
+python main.py --method BASE --resume checkpoint/table_2a/lamda_OURC2P_ep_best.pth.tar --dataset office_home_rsut --source Clipart_RS --target Product_UT --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_2a/lamda_OURC2R_ep_best.pth.tar --dataset office_home_rsut --source Clipart_RS --target Real_UT --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_2a/lamda_OURP2C_ep_best.pth.tar --dataset office_home_rsut --source Product_RS --target Clipart_UT --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_2a/lamda_OURP2R_ep_best.pth.tar --dataset office_home_rsut --source Product_RS --target Real_UT --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_2a/lamda_OURR2C_ep_best.pth.tar --dataset office_home_rsut --source Real_RS --target Clipart_UT --testonly --dontlog
+python main.py --method BASE --resume checkpoint/table_2a/lamda_OURR2P_ep_best.pth.tar --dataset office_home_rsut --source Real_RS --target Product_UT --testonly --dontlog
