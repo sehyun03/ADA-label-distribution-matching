@@ -1,4 +1,4 @@
-# active-da-baseline
+# ADA-label-distribution-matching
 Code for ECCV 2022 paper "Combating Label Distribution Shift forActive Domain Adaptation"
 
 #### Requirements
